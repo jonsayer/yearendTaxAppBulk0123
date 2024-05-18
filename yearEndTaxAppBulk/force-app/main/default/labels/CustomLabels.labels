@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Currency_Symbol</fullName>
+        <categories>TAX LETTER</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Currency Symbol</shortDescription>
+        <value>$</value>
+    </labels>
+    <labels>
+        <fullName>Date_Format_String</fullName>
+        <categories>TAX LETTER</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Date Format String</shortDescription>
+        <value>MMMM d, yyyy</value>
+    </labels>
+    <labels>
+        <fullName>HTML_Table_Cell</fullName>
+        <categories>TAX LETTER</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HTML Table Cell</shortDescription>
+        <value>&lt;td style=&quot;border: 1px solid black; padding: 15px;&quot;&gt;{0}&lt;/td&gt;</value>
+    </labels>
+    <labels>
+        <fullName>HTML_Table_Prefix</fullName>
+        <categories>TAX LETTER</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HTML Table Prefix</shortDescription>
+        <value>&lt;table style=&quot;width:100%; border: 1px solid black;&quot;&gt;
+&lt;tr&gt;
+&lt;th style=&quot;border: 1px solid black; padding: 15px;&quot;&gt; Date&lt;/th&gt;
+&lt;th style=&quot;border: 1px solid black;&quot;&gt;Amount&lt;/th&gt;
+&lt;/tr&gt;</value>
+    </labels>
+    <labels>
+        <fullName>HTML_Table_Row_End</fullName>
+        <categories>TAX LETTER</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HTML Table Row End</shortDescription>
+        <value>&lt;/tr&gt;</value>
+    </labels>
+    <labels>
+        <fullName>HTML_Table_Row_Start</fullName>
+        <categories>TAX LETTER</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HTML Table Row Start</shortDescription>
+        <value>&lt;tr&gt;</value>
+    </labels>
+    <labels>
+        <fullName>HTML_Table_Suffix</fullName>
+        <categories>TAX LETTER</categories>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>HTML Table Suffix</shortDescription>
+        <value>&lt;/table&gt;</value>
+    </labels>
+</CustomLabels>

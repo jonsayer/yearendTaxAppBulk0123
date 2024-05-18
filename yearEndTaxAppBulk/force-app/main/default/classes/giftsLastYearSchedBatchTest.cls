@@ -26,9 +26,6 @@ public class giftsLastYearSchedBatchTest {
             }
         }
         System.assertEquals(testNumC,contacts.size(),testNumC +' ');
-        
-        
-        
     }
     
     @isTest static void negativeTest() {

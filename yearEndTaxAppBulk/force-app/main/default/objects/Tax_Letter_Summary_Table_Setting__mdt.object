@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <fullName>Contact_Filter__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>SOQL Where clause that will return the list of contacts that you want to run the automation on.
+
+Default:  npo02__OppAmountLastYear__c &gt; 0</inlineHelpText>
+        <label>Contact Filter</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Filter__c</fullName>
+        <externalId>false</externalId>
+        <fieldManageability>DeveloperControlled</fieldManageability>
+        <inlineHelpText>Returns the list of Opps that you will want in the table. Must start with &quot; AND &quot;. Default:
+
+AND CALENDAR_YEAR(CloseDate) = :lastYear AND IsWon = True</inlineHelpText>
+        <label>Opportunity Filter</label>
+        <length>255</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Tax Letter Summary Table Setting</label>
+    <pluralLabel>Tax Letter Summary Table Settings</pluralLabel>
+    <visibility>Public</visibility>
+</CustomObject>
